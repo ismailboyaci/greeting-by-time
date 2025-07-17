@@ -1,7 +1,7 @@
 {
   "name": "greeting-by-time",
   "version": "1.0.0",
-  "description": "",
+  "description": "Localized greeting by time of day",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
