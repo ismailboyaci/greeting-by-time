@@ -1,6 +1,6 @@
 export type SupportedLanguage = 'en' | 'tr';
 
-export function getGreeting(args: {lang?: SupportedLanguage, date?: Date}): string {
+export function getGreeting(args?: {lang?: SupportedLanguage, date?: Date}): string {
     const {
     lang = 'en',
     date = new Date(),
