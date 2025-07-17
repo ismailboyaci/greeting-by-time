@@ -5,14 +5,26 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "jest",
+    "build": "tsc",
+    "release": "standard-version"
   },
-  "keywords": ["greeting", "time", "good morning", "npm", "timely", "multilingual"],
+  "keywords": [
+    "greeting",
+    "time",
+    "good morning",
+    "npm",
+    "timely",
+    "multilingual"
+  ],
   "author": "İsmail BOYACI",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.14",
+    "jest": "^30.0.4",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
