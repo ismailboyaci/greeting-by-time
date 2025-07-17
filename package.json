@@ -1,5 +1,5 @@
 {
-  "name": "greeting-by-time",
+  "name": "timely-greet",
   "version": "1.0.0",
   "description": "Localized greeting by time of day",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": ["greeting", "time", "good morning", "npm package"],
+  "keywords": ["greeting", "time", "good morning", "npm", "timely", "multilingual"],
   "author": "İsmail BOYACI",
   "license": "MIT",
   "devDependencies": {
